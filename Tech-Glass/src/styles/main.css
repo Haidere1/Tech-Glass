@@ -28,18 +28,32 @@ body
     padding: 0;
     margin: 0;
 }
+.overlay
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-attachment: fixed;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
 .mainpage
 {
     /* -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
     background-size:cover; */
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    background-attachment: fixed;
+    
     font-family:Quesha;
+    color: black;
+    
     
 }
 .containercat
@@ -219,6 +233,7 @@ background-color: antiquewhite;
 .flex-container {
     display: flex;
     height: 100vh;
+    margin-top: 40px;
    
   }
   
@@ -239,9 +254,14 @@ background-color: antiquewhite;
    text-align: left;    
    flex-shrink: 3;
 
-   font-size: 1vw;
+   font-size: medium;
    height: 100%;
   }
+  #box1 h1
+  {
+    color: black;
+  }
+  
   
   
   #box2 {
@@ -286,6 +306,175 @@ width: 30%;
    height: 40%;
 width: 30%;
 }
+.latestprj{
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(216, 214, 223 ,0.3);
+    margin-top: 100px;
+}
+.child1{
+    color: rgb(28,146,91);
+}
+.child1 h1
+{
+  color:black;
+}
+
+.prbox1 {
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+   text-align: left;    
+   flex: 1;
+
+   height: 100%;
+   flex-direction: column;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 30%;
+    margin-top: 10px;
+    justify-content: space-between;
+
+  }
+  .content h1{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .content p{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(28,146,91);
+    
+
+  }
+
+  .content img{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    
+    border-radius:20px;
+  }
+  
+  
+  .prbox2 {
+    height: auto;
+    background-color: transparent;
+    color: white;
+    
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    align-items: center;
+    font-size: 10px;
+  }
+  .prbox2 button{
+    height:50px;
+    width: 50%;
+    border:1px solid black;
+    background-color: transparent;
+    font-size: large;
+    color: black;
+    
+  }     
+  .prbox2 button:hover{
+    color: black;
+    background-color: white;
+
+  }
+
+
+ 
   /* Hover effect */
  
  
+
+
+
+
+
+
+ 
+/* CSS */
+
+
+/* CSS */
+/* .button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:rgb(125, 216, 241);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+} */

@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function CollapsibleExample() {
   return (
     
-    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark" style={{fontSize:"large"}}>
+    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light" style={{fontSize:"large"}}>
       <Container>
       <Navbar.Brand>Tech Glass</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,10 +16,10 @@ function CollapsibleExample() {
          <Nav.Item style={{paddingTop:"8px"}}>Home</Nav.Item>
           
           
-          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Women</Nav.Item>
-          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Women</Nav.Item>
-          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Women</Nav.Item>
-          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Women</Nav.Item>
+          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>How To Choose Glass</Nav.Item>
+          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Latest Projects</Nav.Item>
+          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Low-E Glass</Nav.Item>
+          <Nav.Item style={{paddingLeft:"10px",paddingTop:"8px"}}>Certifications/QC</Nav.Item>
             <NavDropdown title="Products" id="collasible-nav-dropdown">
               <NavDropdown.Item >Flat And Tempered Glass</NavDropdown.Item>
               <NavDropdown.Item >
@@ -31,7 +31,7 @@ function CollapsibleExample() {
                 Go To Top
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Products" id="collasible-nav-dropdown">
+            <NavDropdown title="Facilities" id="collasible-nav-dropdown">
               <NavDropdown.Item >Flat And Tempered Glass</NavDropdown.Item>
               <NavDropdown.Item >
                 Heat Strengthened Glass
