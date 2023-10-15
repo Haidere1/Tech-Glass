@@ -1,0 +1,291 @@
+.carouseldiv
+{
+    box-shadow: 9px 8px 30px 6px white;
+    height: 80vh;
+    animation: rotateShadow 5s infinite linear;
+}
+
+@keyframes rotateShadow {
+  0% {
+    box-shadow: -20px 0px 10px rgba(255, 255, 255, 0.7);
+  }
+  25% {
+    box-shadow: 0px -20px 10px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    box-shadow: 20px 0px 10px rgba(255, 255, 255, 0.7);
+  }
+  75% {
+    box-shadow: 0px 20px 10px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    box-shadow: -20px 0px 10px rgba(255, 255, 255, 0.7);
+  }
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.mainpage
+{
+    /* -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size:cover; */
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    font-family:Quesha;
+    
+}
+.containercat
+{
+    margin-top:30vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box
+{
+    text-align: center;
+    padding-left: 6vw;
+    width: 40vw;
+    margin: 0px 10px;
+    height: 40vh;
+}
+.box img
+
+{
+    
+    border-radius: 10px;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.box h2
+{
+    margin-top: 20px;
+    
+}
+.box img:hover
+{
+    transform: scale(1.1);
+    z-index:1;
+}
+
+/* .newitem
+{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+
+
+
+.mainnews
+{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin-top: 220px;
+    background-color: black;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.mainnews div
+{
+    text-align: center;
+
+}
+.mainnews h1
+{
+    font-size: 5vw;
+}
+.mainnews h2
+{
+    font-size: 4vw;
+}
+.mainnews button
+{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.mainnews button:hover
+{
+transition: 1.1s;
+background-color: antiquewhite;
+}
+/* .womennews
+{
+    width: 50vw;
+    height: 100vh;
+    
+    
+}
+.mennews
+{
+    width: 50vw;
+    height: 100vh;
+    background-color:white;
+    background-color: black;
+    background-position:left top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+} */
+
+
+
+
+
+
+.NewArrival
+{
+    opacity: 1;
+    text-align: center;
+    margin-top: 2vh;
+}
+.NewArrival button
+{
+    text-align: center;
+    background-color: transparent;
+    font-size:xx-large ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 1s;
+    margin-top: 10px;
+    
+}
+.NewArrival button:hover
+{
+    background-color: beige;    
+    color: black;
+}
+.display
+{   
+    padding:0;
+    padding-top: 20px;
+    display: flex;
+    width: 20vw;
+    height: 60vh;
+    margin-left:60px;
+    
+    
+}
+
+.display img
+{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    transition: 1s;
+    border-radius: 20px;
+    box-shadow: 1px 8px 20px 1px rgb(129, 127, 127);
+}
+
+.display img:hover
+{
+    transform: scale(1.02);
+    z-index:1;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.801);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+   
+  }
+  
+  .box {
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+    transition: flex 0.3s; /* Transition for smooth effect */
+    cursor: pointer;
+  }
+  
+  /* Initial styles for both boxes */
+  #box1 {
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+   text-align: left;    
+   flex-shrink: 3;
+
+   font-size: 1vw;
+   height: 100%;
+  }
+  
+  
+  #box2 {
+    height: 100%;
+    background-color: transparent;
+    color: white;
+ 
+    flex:1;
+    position: relative;
+    font-size: 10px;
+  }
+  .infoImg{
+position: absolute;
+left: 2;
+height: 40%;
+width: 30%;
+  }
+.infoImg2{
+    position: absolute;
+right: 0;
+height: 40%;
+width: 30%;
+}
+.infoImg3{
+position: absolute;
+top: 20%;
+left: 36%;
+height: 50%;
+width: 30%;
+}
+.infoImg4{
+    position: absolute;
+   left: 0;
+   bottom: 10%;
+   height: 40%;
+width: 30%;
+}
+.infoImg5{
+    position: absolute;
+   right: 0;
+   bottom: 10%;
+   height: 40%;
+width: 30%;
+}
+  /* Hover effect */
+ 
+ 
