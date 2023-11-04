@@ -11,9 +11,11 @@ import cutting6 from '../images/cutting6.jpg'
 import l2 from '../images/bomall.png'
 import l3 from '../images/empmall.png'
 import l4 from '../images/bmall.png'
+import {Link} from 'react-router-dom'
 
 import '../styles/main.css'
 import mainbg from '../backgrounds/mainbg2.jpg'
+import Footer from "./footer.js";
 // import { useState } from "react";
 
 const Mainpage = () => {
@@ -142,7 +144,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
   </div>
 
 <div className="prbox2">
- <button data-aos="zoom-out-left" value='Hotels'>Hotels</button>
+ <button data-aos="zoom-out-left" value='Hotels'><Link to='/View'>Hotels</Link></button>
  <button  data-aos="zoom-out-left" value='Education'>Education / Health projects</button>
  <button data-aos="zoom-out-left" value='' >Commercial Buildings</button>
  <button  data-aos="zoom-out-left" >Shopping Malls</button>
@@ -156,6 +158,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
 </div>
 
 </div>
+<Footer/>
 
 
 
