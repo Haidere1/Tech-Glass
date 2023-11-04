@@ -10,7 +10,7 @@ import cutting5 from '../images/cutting5.jpg'
 import cutting6 from '../images/cutting6.jpg'
 import l2 from '../images/bomall.png'
 import l3 from '../images/empmall.png'
-import l4 from '../images/bmall.png'
+import l4 from '../images/bmall.png'  
 import {Link} from 'react-router-dom'
 
 import '../styles/main.css'

@@ -73,7 +73,6 @@ body
     height: 40vh;
 }
 .box img
-
 {
     
     border-radius: 10px;
@@ -103,48 +102,8 @@ body
 
 
 
-.mainnews
-{
-    display: flex;
-    width: 100%;
-    height: 80vh;
-    margin-top: 220px;
-    background-color: black;
-    background-position:center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-}
-.mainnews div
-{
-    text-align: center;
 
-}
-.mainnews h1
-{
-    font-size: 5vw;
-}
-.mainnews h2
-{
-    font-size: 4vw;
-}
-.mainnews button
-{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    font-size: 40px;
-    margin-top: 100px;
-    border-radius: 10px;
-}
-.mainnews button:hover
-{
-transition: 1.1s;
-background-color: antiquewhite;
-}
+
 /* .womennews
 {
     width: 50vw;
@@ -170,56 +129,8 @@ background-color: antiquewhite;
 
 
 
-.NewArrival
-{
-    opacity: 1;
-    text-align: center;
-    margin-top: 2vh;
-}
-.NewArrival button
-{
-    text-align: center;
-    background-color: transparent;
-    font-size:xx-large ;
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    transition: 1s;
-    margin-top: 10px;
-    
-}
-.NewArrival button:hover
-{
-    background-color: beige;    
-    color: black;
-}
-.display
-{   
-    padding:0;
-    padding-top: 20px;
-    display: flex;
-    width: 20vw;
-    height: 60vh;
-    margin-left:60px;
-    
-    
-}
 
-.display img
-{
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-    transition: 1s;
-    border-radius: 20px;
-    box-shadow: 1px 8px 20px 1px rgb(129, 127, 127);
-}
 
-.display img:hover
-{
-    transform: scale(1.02);
-    z-index:1;
-}
 .glass{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
