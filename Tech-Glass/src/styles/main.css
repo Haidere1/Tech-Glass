@@ -56,14 +56,13 @@ body
     
     
 }
-.containercat
-{
-    margin-top:30vh;
-    width:100%;
+
+.flex-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+    height: 100vh;
+    margin-top: 40px;
+   
+  }
 .box
 {
     text-align: center;
@@ -90,47 +89,9 @@ body
 {
     transform: scale(1.1);
     z-index:1;
-}
-
-/* .newitem
-{
-    display: flex;
-    flex-direction: row;
-
-} */
-
-
-
-
-
-
-/* .womennews
-{
-    width: 50vw;
-    height: 100vh;
+  }
+  
     
-    
-}
-.mennews
-{
-    width: 50vw;
-    height: 100vh;
-    background-color:white;
-    background-color: black;
-    background-position:left top;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    background-attachment: fixed;
-} */
-
-
-
-
-
-
-
-
 .glass{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -141,32 +102,17 @@ body
 }
 
 
-.flex-container {
-    display: flex;
-    height: 100vh;
-    margin-top: 40px;
-   
-  }
-  
-  .box {
-
-    margin-left: 0;
-    margin-right: 0;
-    padding: 20px;
-    transition: flex 0.3s; /* Transition for smooth effect */
-    cursor: pointer;
-  }
   
   /* Initial styles for both boxes */
   #box1 {
     background-color: transparent;
     color: white;
-    margin-right: 10px;
-   text-align: left;    
+   text-align:left;    
    flex-shrink: 3;
-
-   font-size: medium;
+   font-size: large;
+   padding: 0;
    height: 100%;
+   font-family: Maxon;
   }
   #box1 h1
   {
@@ -179,7 +125,6 @@ body
     height: 100%;
     background-color: transparent;
     color: white;
- 
     flex:1;
     position: relative;
     font-size: 10px;
@@ -199,13 +144,13 @@ width: 30%;
 .infoImg3{
 position: absolute;
 top: 20%;
-left: 36%;
-height: 50%;
+left: 40%;
+height: 40%;
 width: 30%;
 }
 .infoImg4{
     position: absolute;
-   left: 0;
+   left: 10%;
    bottom: 10%;
    height: 40%;
 width: 30%;
@@ -225,7 +170,65 @@ width: 30%;
     text-align: center;
     align-items: center;
     background-color: rgb(216, 214, 223 ,0.3);
-    margin-top: 100px;
+    margin: auto;
+}
+@media  (max-width:768px)
+{
+  .flex-container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #box1
+  {
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+    width: auto;
+   text-align: left;    
+   font-size:small;
+   height: 50%;
+  }
+  #box2 {
+    margin: auto;
+    padding-right: 20px;
+   margin-top: 10px;
+   margin-left: -20px;
+    height: 100%;
+    color: white;
+    width: auto; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-y: auto ;
+    
+  }
+  .infoImg{
+    position: static;
+    height: 80%;
+    width: 55%;
+      }
+    .infoImg2{
+      position: static;
+    height: 80%;
+    width: 55%;
+    }
+    .infoImg3{
+      position: static;
+    height: 80%;
+    width: 55%;
+    }
+    .infoImg4{
+      position: static;
+    height: 80%;
+    width: 55%;
+    }
+    .infoImg5{
+      position: static;
+    height: 80%;
+    width: 55%;
+    }
+  
 }
 .child1{
     color: rgb(28,146,91);
@@ -257,12 +260,14 @@ width: 30%;
   }
   .content h1{
     color: black;
+    font-size: x-large;
     padding-left: 20px;
     padding-right: 20px;
 
   }
   .content p{
     
+    font-size: medium;
     padding-left: 20px;
     padding-right: 20px;
     color: rgb(28,146,91);
@@ -297,7 +302,7 @@ width: 30%;
     width: 50%;
     border:1px solid black;
     background-color: transparent;
-    font-size: large;
+    font-size: medium;
     color: black;
     
   }     

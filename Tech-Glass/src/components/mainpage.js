@@ -90,19 +90,19 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
     <img src={cuttingline} alt="nothing found" />
     </div>
     
-    <div className="infoImg2"  data-aos="flip-left"> Image 2 will be placed here
+    <div className="infoImg2"  data-aos="flip-left"> 
     <img src={cutting2} alt="nothing found"/>
     </div>
     
-    <div className="infoImg3"  data-aos="flip-left"> Image 3 will be placed here
+    <div className="infoImg3"  data-aos="flip-left"> 
     <img src={cutting4} alt="nothing found"/>
     </div>
     
-    <div className="infoImg4"  data-aos="flip-left"> Image 4 will be placed here
+    <div className="infoImg4"  data-aos="flip-left"> 
     <img src={cutting5} alt="nothing found"/>
     </div>
     
-    <div className="infoImg5"  data-aos="flip-left"> Image 5 will be placed here
+    <div className="infoImg5"  data-aos="flip-left"> 
     <img src={cutting6} alt="nothing found"/>
     </div>
     
@@ -158,7 +158,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
 </div>
 
 </div>
-<Footer/>
+
 
 
 
