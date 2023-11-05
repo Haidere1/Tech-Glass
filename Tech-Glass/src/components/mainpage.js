@@ -16,6 +16,7 @@ import {Link} from 'react-router-dom'
 import '../styles/main.css'
 import mainbg from '../backgrounds/mainbg2.jpg'
 import Footer from "./footer.js";
+
 // import { useState } from "react";
 
 const Mainpage = () => {
@@ -144,7 +145,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
   </div>
 
 <div className="prbox2">
- <button data-aos="zoom-out-left" value='Hotels'><Link to='/View'>Hotels</Link></button>
+ <button data-aos="zoom-out-left" value='Hotels'><Link style={{textDecoration:"none",color:"black"}} to='/View'>Hotels</Link></button>
  <button  data-aos="zoom-out-left" value='Education'>Education / Health projects</button>
  <button data-aos="zoom-out-left" value='' >Commercial Buildings</button>
  <button  data-aos="zoom-out-left" >Shopping Malls</button>
@@ -163,7 +164,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
 
 
     
-    
+    <Footer></Footer>
 
         </div>
     );

@@ -3,8 +3,11 @@ import '../styles/product.css'
 import CollapsibleExample from './tabbar';
 import pri from '../images/cutting6.jpg'
 import Footer from './footer';
-
+import {useEffect} from 'react'
 const Product=()=>{
+    useEffect(() => {
+        window.scrollTo(0, 0); // Reset scroll position to the top when the component mounts
+      }, []);
     return(
         <div>
         <div className="overlay" style={{backgroundImage:`url(${mainbg})`}} ></div>
@@ -39,7 +42,7 @@ const Product=()=>{
             
         </div>
         </div>
-       
+       <Footer></Footer>
 
         </div>
     );

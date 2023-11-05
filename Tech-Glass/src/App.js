@@ -5,6 +5,7 @@ import Product from "./components/viewpr";
 function App() {
   return (
     <Routes>
+      
     <Route path="/" Component={Mainpage}/>
     <Route path="/View" Component={Product}/>
     </Routes>

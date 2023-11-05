@@ -1,3 +1,7 @@
+body
+{
+  font-family: Quesha;
+}
 .carouseldiv
 {
     box-shadow: 9px 8px 30px 6px white;
@@ -88,6 +92,7 @@ body
 .box img:hover
 {
     transform: scale(1.1);
+    
     z-index:1;
   }
   
@@ -112,7 +117,8 @@ body
    font-size: large;
    padding: 0;
    height: 100%;
-   font-family: Maxon;
+   font-family: Quesha;
+   
   }
   #box1 h1
   {
@@ -170,8 +176,8 @@ width: 30%;
     text-align: center;
     align-items: center;
     background-color: rgb(216, 214, 223 ,0.3);
-    margin: auto;
-}
+    margin-top: 20px;
+    }
 @media  (max-width:768px)
 {
   .flex-container
@@ -296,6 +302,9 @@ width: 30%;
     
     align-items: center;
     font-size: 10px;
+
+    transition: 0.3s;
+   
   }
   .prbox2 button{
     height:50px;
@@ -307,8 +316,11 @@ width: 30%;
     
   }     
   .prbox2 button:hover{
+    
     color: black;
     background-color: white;
+    transform: rotate(90deg);
+    
 
   }
 
