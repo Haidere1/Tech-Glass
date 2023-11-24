@@ -3,13 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../styles/navstyle.css'
-
+import glogo from '../images/glogo.png'
 function CollapsibleExample() {
   return (
     
     <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light" style={{fontSize:"medium"}}>
       <Container>
-      <Navbar.Brand>GreenTech Glass</Navbar.Brand>
+      <Navbar.Brand><img className='logo' src={glogo} alt=''></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

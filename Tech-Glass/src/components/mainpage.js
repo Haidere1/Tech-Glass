@@ -8,6 +8,7 @@ import cutting2 from '../images/cutting2.jpg'
 import cutting4 from '../images/cutting4.jpg'
 import cutting5 from '../images/cutting5.jpg'
 import cutting6 from '../images/cutting6.jpg'
+import bg1 from '../backgrounds/bg1.jpg'
 import l2 from '../images/bomall.png'
 import l3 from '../images/empmall.png'
 import l4 from '../images/bmall.png'  
@@ -43,12 +44,12 @@ const Mainpage = () => {
       <Carousel.Item>
         <img style={{objectFit:"cover", maxHeight:"80vh"}}
           className="d-block w-100 h-50"
-          src={cimage1}
+          src={bg1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>GreenTech Glass</h3>
+          <p>Quality Is Our Passion.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -59,8 +60,8 @@ const Mainpage = () => {
         />
         
         <Carousel.Caption>
-          <h3>New Arrival</h3>
-          <p>Best Color and Best Quality That A Man Can Get</p>
+          <h3>The Best In Glass</h3>
+          <p>With over 35 years Of Experience</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -71,9 +72,9 @@ const Mainpage = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Latest Tech</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            We have the Latest Plant and Equipment.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -145,7 +146,7 @@ cutting, edging, tempering, double glazing, lamination and designing, all under 
   </div>
 
 <div className="prbox2">
- <button data-aos="zoom-out-left" value='Hotels'><Link style={{textDecoration:"none",color:"black"}} to='/View'>Hotels</Link></button>
+ <button data-aos="zoom-out-left" value='Hotels' style={{backgroundColor:"white"}}><Link style={{textDecoration:"none",color:"black",}} to='/View'>Hotels</Link></button>
  <button  data-aos="zoom-out-left" value='Education'>Education / Health projects</button>
  <button data-aos="zoom-out-left" value='' >Commercial Buildings</button>
  <button  data-aos="zoom-out-left" >Shopping Malls</button>
